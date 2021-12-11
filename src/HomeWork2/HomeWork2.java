@@ -19,8 +19,13 @@ public class HomeWork2 {
 
         System.out.println("___________________");
 
-        int d = -1500000000;
-        intNumber1(d);
+//        int d = -1500000000;
+//        intNumber1(d);
+        if (intNumber1(-8)) {
+            System.out.println("TRUE");
+        } else {
+            System.out.println("FALSE");
+        }
 
         System.out.println("___________________");
 
@@ -44,16 +49,21 @@ public class HomeWork2 {
         }
 
         public static boolean intNumber ( int c){
-            return c >= 0;
+
+        return c >= 0;
         }
 
-        public static void intNumber1 ( int d){
-            if (d < 0){
-                System.out.println("TRUE");
-            }else if (d > 0){
-                System.out.println("FALSE");
-            }
-        }
+//        public static void intNumber1 ( int d){
+//            if (d < 0){
+//                System.out.println("TRUE");
+//            }else if (d > 0){
+//                System.out.println("FALSE");
+//            }
+//        }
+        public static boolean intNumber1 (int d){
+        return d<0;
+    }
+
 
         public static void printStrings(int height, String string2){
             for (int i = 1; i <= height; i++) {
@@ -62,7 +72,7 @@ public class HomeWork2 {
 
         }
 
-        public static boolean leapYear (float e){
+        public static boolean leapYear (int e){
                 return ((e/400) == (int)(e/400)||((e/4) ==(int)(e/4))) && ((e/100) != (int)(e/100));
         }
 
