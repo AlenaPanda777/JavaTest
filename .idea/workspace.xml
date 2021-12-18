@@ -26,13 +26,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.HomeWork2">
+  <component name="RunManager" selected="Application.HomeWork3">
     <configuration name="HomeWork2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork2.HomeWork2" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HomeWork2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork3.HomeWork3" />
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -49,6 +62,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWork3" />
         <item itemvalue="Application.HomeWork2" />
         <item itemvalue="Application.HomeWorkApp" />
       </list>
